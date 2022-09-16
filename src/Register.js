@@ -64,17 +64,7 @@ const Register = () => {
           {/* /.col */}
         </div>
       </form>
-      <div className="social-auth-links text-center">
-        <p>- OR -</p>
-        <a href="#" className="btn btn-block btn-primary">
-          <i className="fab fa-facebook mr-2" />
-          Sign up using Facebook
-        </a>
-        <a href="#" className="btn btn-block btn-danger">
-          <i className="fab fa-google-plus mr-2" />
-          Sign up using Google+
-        </a>
-      </div>
+
       <a href="./pwrx-login.html" className="text-center">I already have a membership</a>
     </div>
     {/* /.form-box */}
