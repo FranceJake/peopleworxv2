@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Header from './Header';
 import Sidebar from './Sidebar';
@@ -13,7 +13,7 @@ import Footer from './Footer';
 const App = () => {
   return (
     <div className="wrapper">
-     <BrowserRouter>
+     <HashRouter>
        
          
        <Header />
@@ -22,7 +22,7 @@ const App = () => {
        <Footer />
       
     
-   </BrowserRouter>
+   </HashRouter>
     </div>
     
     
